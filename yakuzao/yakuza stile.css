@@ -1,0 +1,83 @@
+div#nev{
+    background-color: #797979;
+    border: 3px solid #797979;
+    color: whitesmoke;
+    width: 100%;
+    
+    a{
+        margin-left: 100px;
+    }
+}
+body{
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div#poto{
+    float: right;
+    transform: scale(0.9);
+    image-rendering: pixelated;
+}
+div#caca{
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+div#nose{
+    color:whitesmoke
+}
+a{
+    color: white;
+}
+h1{
+    color: grey;
+
+}
+p{
+    padding: 8px;
+    color: whitesmoke;
+    background-color: #11111179;
+    border-radius: 10px;
+
+}
+.flex-container{
+    display: flex;
+    padding: 5px;
+    height: 300px;
+    flex-wrap: wrap ;
+    text-shadow: 1px 0 #000000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000 ;
+    img{
+        height: 500px;
+    }
+}
+.flex-container div{
+        margin: 5px;
+        padding: 10px;
+    }   
+button{
+    border: none;
+  color: rgb(12, 11, 11);
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+h1{
+    margin-right: 85%;
+    background-image: url(pngwingoo2.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    object-fit: contain;
+    height: 100px;
+    width: 200px;
+    text-decoration: none;
+    text-shadow: 1px 0 #000000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000 ;
+    
+    }
+
+
